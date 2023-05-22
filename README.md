@@ -15,10 +15,10 @@ refinn loan calculator widget
 </script>
 ```
 
-loancalculator_widget('init', {}, <id>, <price>)
-to init widget need to config like this
-the id value is mandatory
-the price value is optional
+loancalculator_widget('init', {}, <id>, <price>) to init widget need to config like this
+the id value is mandatory <br/>
+the price value is optional <br/>
 
-refinn-loan-calculator-widget = div id that will render widget
-price = id of value to point to reference when what to auto detect price if not to specific can use empty string eg. loancalculator_widget('init', {}, 'refinn-loan-calculator-widget', '');
+refinn-loan-calculator-widget = div id that will render widget <br/>
+price = id of value to point to reference when what to auto detect price if not to specific can use empty string eg. <br/>
+loancalculator_widget('init', {}, 'refinn-loan-calculator-widget', ''); <br/>
