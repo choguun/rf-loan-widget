@@ -11,11 +11,12 @@ refinn loan calculator widget
         js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
         js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
     }(window, document, 'script', 'loancalculator_widget', './rf-loan-widget.js'));
-    loancalculator_widget('init', {}, 'refinn-loan-calculator-widget', 'price');
+    loancalculator_widget('init', {}, 'refinn-loan-calculator-widget', 'price', 2);
+    loancalculator_widget_2('init', {}, 'refinn-loan-calculator-widget-2', '', 5);
 </script>
 ```
 
-loancalculator_widget('init', {}, <id>, <price>) to init widget need to config like this
+loancalculator_widget('init', {}, <id>, <price>, <promotions per page>) to init widget need to config like this
 the id value is mandatory <br/>
 the price value is optional <br/>
 
